@@ -6,7 +6,7 @@
   <meta name="description" content="موقع لمشاهدة أحدث الأفلام والمسلسلات بتصنيفات متنوعة.">
   <meta name="keywords" content="أفلام, مسلسلات, عربي, أكشن, كوميديا, دراما">
   <meta name="author" content="يلا سينما">
-  <title>يلا سينما</title>
+  <title>VIB00K</title>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-50CMRNKWN5"></script>
 <script>
@@ -175,6 +175,31 @@
         display: flex;
       }
     }
+    .pagination {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.pagination a {
+  color: #f90;
+  background-color: #222;
+  padding: 10px 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #f90;
+  color: #111;
+}
+
+.pagination a.active {
+  background-color: #f90;
+  color: #111;
+  pointer-events: none;
+}
   </style>
 </head>
 <body>
@@ -274,7 +299,15 @@
       </div>
     </div>
   </section>
-
+  <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="Foreign films.html" class="active">1</a>
+    <a href="Foreign films.html">2</a>
+    <a href="Foreign films.html">3</a>
+    <a href="Foreign films.html">4</a>
+    <a href="Foreign films.html">5</a>
+    <a href="#">&raquo;</a>
+  </div>
   <footer>
     فيبوك عندنا الحل! - أفلامك المفضلة دايمًا في جيبك
   </footer>
